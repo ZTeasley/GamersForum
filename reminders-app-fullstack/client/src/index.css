@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #033157;
+  text-align: center;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input-field label {
+  color: #4fc3f7;
+}
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid rgb(255, 0, 0);
+  box-shadow: 0 1px 0 0 #000;
+}
+
+
+
+.textareas {
+  color: #4fc3f7;
+  background-color: #03365f;
+}
+
+.AButton {
+  margin-left: 10px;
+}
+
+.createPostBtn {
+  float: left;
+  margin-left: 240px;
+}
+
+.deleteAllBtn {
+  float: left;
+  margin-left: 207px;
+}
+
+/* .innerPostDiv {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-style: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  width: 33vw;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+} */
+
+.allPostsDiv {
+  text-align: center;
+  /* background-color: rgb(139, 227, 253); */
+  border-style: hidden;
+  color:  #4fc3f7;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: scroll; */
+  overflow-x: hidden;
+}
+
+.yrPosts {
+  /* background-color: white; */
+  color: #4fc3f7;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 33vw;
+}
+
+.postDiv {
+  /* background-color: rgb(255, 255, 255); */
+  color: #4fc3f7;
+  border-style: solid;
+  border-radius: 10px;
+  width: 33vw;
+}
+
+.card {
+  height: 10vw;
+}
+
+
+
+
+.otherPostsDiv {
+  text-align: center;
+  /* background-color: rgb(139, 227, 253); */
+  color: #4fc3f7;
+  border-style: hiden;
+  border-radius: 10px;
+  margin-left: 50vw;
+  position: absolute;
+  padding: 10px;
+  top: 13.7vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  float: inherit;
+  width: 63vw;
+  height: 53vw;
+  margin-top: -109px;
+  margin-left: 35vw;
+}
+
+
+.lclPosts {
+  text-align: center;
+  /* background-color: white; */
+  color: #4fc3f7;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 33vw;
+  margin-top: -9px;
+  margin-left: 260px;
+}
+
+.postsInLclPosts {
+  /* background-color: rgb(255, 255, 255); */
+  color: #4fc3f7;
+  border-style: solid;
+  border-radius: 10px;
+  width: 60vw;
+  margin-left: 1vw;
+  padding: 10px;
+  margin-top: 45px;
+}
+
+
+
+.innerOnePostDiv {
+  text-align: center;
+  /* background-color: rgb(255, 255, 255); */
+  color: #4fc3f7;
+  border-style: solid;
+  border-radius: 10px;
+  width: 80vw;
+  padding: 10px;
+  margin-left: 10vw;
+}
+
+
+
+.editPost {
+  text-align: center;
+  /* background-color: rgb(255, 255, 255); */
+  color: #4fc3f7;
+  border-style: solid;
+  border-radius: 10px;
+  width: 80vw;
+  padding: 10px;
+  margin-left: 10vw;
+  margin-top: 20px;
+}
+
+
+.newpostDiv {
+  text-align: center;
+  /* background-color: rgb(255, 255, 255); */
+  color: #4fc3f7;
+  border-style: solid;
+  border-color: #4fc3f7;
+  border-radius: 10px;
+  width: 80vw;
+  padding: 10px;
+  margin-left: 10vw;
+  margin-top: 20px;
+}
+
+.comments {
+  border-style: solid;
+  border-radius: 10px;
+  /* background-color: white; */
+  color: #4fc3f7;
+  height: 35px;
+  width:33vw;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.loginDiv {
+  text-align: center;
+  /* background-color: rgb(255, 255, 255); */
+  border-style: solid;
+  border-color:#4fc3f7;
+  border-radius: 10px;
+  width: 33vw;
+  height: 52vh;
+  padding: 2vw;
+  /* padding-top:25px; */
+  margin-left: 33vw;
+  margin-top: 17vh;
+  color: #4fc3f7;
+}
+
+.loginErrNoti {
+  color: rgb(255, 81, 0);
+}
+
+.signUpBtn {
+  color: #4fc3f7;
+  margin-left: 25vw;
+  margin-top: -200px;
+}
+.forgotPassBtn{
+  color: #4fc3f7;
+  margin-bottom: 10px;
+}
+.logoutBtn {
+  margin-left: 10px;
+}
+
+.copyRight {
+  text-align: center;
+  color:  #4fc3f7;
+  margin-top: 22vh;
+}
+
+
+.registerDiv {
+  text-align: center;
+  /* background-color: rgb(255, 255, 255); */
+  border-style: solid;
+  border-color: #4fc3f7;
+  border-radius: 10px;
+  width: 33vw;
+  height: 63vh;
+  padding: 2vw;
+  /* padding-top:25px; */
+  margin-left: 33vw;
+  margin-top: 17vh;
+  color: #4fc3f7;
+}
+
+.regErrNoti {
+  color: red;
+}
+
+.registerBackBtn {
+  color: #4fc3f7;
+  margin-left: -26vw;
+}
+
+.forgotPassDiv {
+  text-align: center;
+  /* background-color: rgb(255, 255, 255); */
+  border-style: solid;
+  border-color: #4fc3f7;
+  border-radius: 10px;
+  width: 30vw;
+  height: 30vw;
+  padding: 10px;
+  /* padding-top:25px; */
+  margin-left: 33vw;
+  margin-top: 17vh;
+  color: #4fc3f7;
+}
+
+.forgotPassBackBtn {
+  color: #4fc3f7;
+  margin-left: -480px;
+}
+
+
+
+
+.allPostsDivLoggedUser {
+  border-style: solid;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #0083c0;
+  border-color: #00aeff;
+  margin-left: 210px;
+  margin-top: -20px;
+  color: #033157;
+}
+
+/* .loaderForLclPosts {
+  float: right;
+  margin-top: -1700px;
+  margin-right: 500px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.AllTicketsTitle {
+  text-align: center;
+  background-color: #ffffff;
+  border-style: solid;
+  width: 10vw;
+  border-radius: 10px;
+  margin-left: 8vw;
+}
+.allTickDiv {
+  text-align: center;
+  background-color: #fabb00;
+  border-color:#fabb00;
+  width: 30vw;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 2vw;
+  text-emphasis: none;
+  text-decoration: none;
+  margin-left: 34vw;
+  margin-top: 1vw;
+}
+
+.ticketsDiv {
+  background-color: white;
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+}
+
+
+.newTicketDiv {
+  text-align: center;
+  background-color: #fabb00;
+  border-color:#fabb00;
+  width: 30vw;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 2vw;
+  text-emphasis: none;
+  text-decoration: none;
+  margin-left: 34vw;
+  margin-top: 1vw;
+}
+
+.oneTicketDiv {
+  text-align: center;
+  background-color: #fabb00;
+  border-color:#fabb00;
+  width: 30vw;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 2vw;
+  text-emphasis: none;
+  text-decoration: none;
+  margin-left: 34vw;
+  margin-top: 1vw;
+}
+
+.innerOneTicketDiv {
+  background-color: white;
+  border: solid;
+  padding: .5vw;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.editTicketDiv {
+  text-align: center;
+  background-color: #fabb00;
+  border-color:#fabb00;
+  width: 30vw;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 2vw;
+  text-emphasis: none;
+  text-decoration: none;
+  margin-left: 34vw;
+  margin-top: 1vw;
+} */

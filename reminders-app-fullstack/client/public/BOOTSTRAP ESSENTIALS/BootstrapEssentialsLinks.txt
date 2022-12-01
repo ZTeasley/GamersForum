@@ -1,0 +1,8 @@
+<!-- importing the bootstrap css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- import jQuery for bootstrap scripts -->
+    <script src="js/jquery.js"></script>
+
+<!-- import bootstrap scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
